@@ -78,7 +78,7 @@ export default function Home() {
             </a>
 
             <a
-              href=""
+              href="/Guilherme_Galaverna_Curriculo.pdf"
               className="bg-white p-1.5 rounded-md flex gap-2 font-medium"
             >
               <FaCloudDownloadAlt color="black" size={20} />
