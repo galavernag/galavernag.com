@@ -5,7 +5,12 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
+import {
+  SiGit,
+  SiJavascript,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 
 export default function Home() {
   const year = new Date().getFullYear();
@@ -50,6 +55,9 @@ export default function Home() {
             </li>
             <li>
               <SiTailwindcss size={24} />
+            </li>
+            <li>
+              <SiGit size={24} />
             </li>
           </ul>
           <footer className="space-x-3 text-black flex">
