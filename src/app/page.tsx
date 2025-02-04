@@ -16,8 +16,8 @@ export default function Home() {
   const year = new Date().getFullYear();
 
   return (
-    <main className="max-w-4xl mt-5 md:mx-auto">
-      <header className="flex items-center justify-between">
+    <main className="max-w-4xl mt-5 md:mx-auto px-5">
+      <header className="flex flex-col md:flex-row items-center justify-between space-y-3">
         <span className="font-medium">
           [<span className="mx-0.5 font-normal">GG</span>]
         </span>
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="grid grid-cols-2 items-center gap-12 mt-32">
+      <section className="grid grid-rows-2 md:grid-cols-2 items-center gap-12 md:mt-32 mt-20">
         <div className="space-y-6">
           <div className="w-min">
             <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white  text-white/25 font-bold text-sm">
@@ -128,32 +128,36 @@ export default function Home() {
       <section id="projetos" className="mt-24">
         <h2 className="text-3xl">#PROJETOS</h2>
 
-        <div className="grid grid-cols-3 gap-3 mt-5">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
+          <div className="flex items-center justify-center">
+            <img
+              src="https://placehold.co/300x200/000000/FFFFFF/png"
+              className="object-contain"
+              alt=""
+            />
+          </div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
-          <div>
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
           </div>
         </div>
