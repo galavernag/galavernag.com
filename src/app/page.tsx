@@ -25,9 +25,9 @@ export default function Home() {
 
         <div className="space-x-3 font-light">
           <Link href="/">INÍCIO</Link>
-          <span>//</span>
+          <span>{"//"}</span>
           <Link href="#sobre-mim">SOBRE_MIM</Link>
-          <span>//</span>
+          <span>{"//"}</span>
           <Link href="#projetos">PROJETOS</Link>
         </div>
       </header>
