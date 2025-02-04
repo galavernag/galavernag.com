@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="grid grid-rows-2 md:grid-cols-2 items-center gap-12 md:mt-32 mt-20">
+      <section className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 items-center gap-12 md:mt-32 mt-20">
         <div className="space-y-6">
           <div className="w-min">
             <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white  text-white/25 font-bold text-sm">
