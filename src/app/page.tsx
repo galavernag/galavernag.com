@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaCloudDownloadAlt,
   FaGithub,
@@ -23,11 +24,11 @@ export default function Home() {
         </span>
 
         <div className="space-x-3 font-light">
-          <a href="/">INÍCIO</a>
+          <Link href="/">INÍCIO</Link>
           <span>//</span>
-          <a href="#sobre-mim">SOBRE_MIM</a>
+          <Link href="#sobre-mim">SOBRE_MIM</Link>
           <span>//</span>
-          <a href="#projetos">PROJETOS</a>
+          <Link href="#projetos">PROJETOS</Link>
         </div>
       </header>
 
