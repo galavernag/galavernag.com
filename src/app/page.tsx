@@ -33,6 +33,11 @@ export default function Home() {
 
       <section className="grid grid-cols-2 items-center gap-12 mt-32">
         <div className="space-y-6">
+          <div className="w-min">
+            <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white  text-white/25 font-bold text-sm">
+              Hello World ✨
+            </h2>
+          </div>
           <h2 className="text-3xl">Olá, sou Guilherme Galaverna</h2>
           <p className="text-justify block">
             Bem-vindo ao meu portifólio. Aqui você pode encontrar meus projetos
