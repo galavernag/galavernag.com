@@ -46,7 +46,7 @@ export default function Home() {
               Hello World ✨
             </h2>
           </div>
-          <h2 className="text-3xl">Hi, I&aposm Guilherme Galaverna</h2>
+          <h2 className="text-3xl">Hi, I'm Guilherme Galaverna</h2>
           <p className="text-justify block">
             Welcome to my portfolio. Here you can find about my personal
             projects where I praticated all of my knowledge in Front-end and
