@@ -24,11 +24,11 @@ export default function Home() {
         </span>
 
         <div className="space-x-3 font-light">
-          <Link href="/">INÍCIO</Link>
+          <Link href="/">HOME</Link>
           <span>{"//"}</span>
-          <Link href="#sobre-mim">SOBRE_MIM</Link>
+          <Link href="#sobre-mim">ABOUT_ME</Link>
           <span>{"//"}</span>
-          <Link href="#projetos">PROJETOS</Link>
+          <Link href="#projetos">PROJECTS</Link>
         </div>
       </header>
 
@@ -39,13 +39,14 @@ export default function Home() {
               Hello World ✨
             </h2>
           </div>
-          <h2 className="text-3xl">Olá, sou Guilherme Galaverna</h2>
+          <h2 className="text-3xl">Hi, I'm Guilherme Galaverna</h2>
           <p className="text-justify block">
-            Bem-vindo ao meu portifólio. Aqui você pode encontrar meus projetos
-            onde pratiquei todo conhecimento de desenvolvimento Front-End com
-            React.js/Next.js com TypeScript, Tailwind
+            Welcome to my portfolio. Here you can find about my personal
+            projects where I praticated all of my knowledge in Front-end and
+            Back-end development with React.js, Next.js, TypeScript, JavaScript
+            and more.
           </p>
-          <span className="text-sm mt-3">TECNOLOGIAS</span>
+          <span className="text-sm mt-3 block">TECHS</span>
           <ul className="flex items-center gap-2">
             <li>
               <FaReact size={24} />
@@ -100,66 +101,90 @@ export default function Home() {
       </section>
 
       <section id="sobre-mim" className="mt-24">
-        <h2 className="text-3xl">#SOBRE_MIM</h2>
+        <h2 className="text-3xl">#ABOUT_ME</h2>
 
         <div className="space-y-6 mt-3">
+          <h3 className="text-lg uppercase">
+            <strong>#The_beginning</strong>
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            ducimus eum obcaecati quae odit nesciunt temporibus facere totam
-            reprehenderit voluptates numquam molestias. Nesciunt possimus,
-            asperiores quo rerum repudiandae aperiam deleniti?
+            I started researching software development when I was 12 years old.
+            I used to write some Batch Script codes on Windows. It was at that
+            time that I started to get more interested in development. So I
+            started researching software development and started consuming
+            everything I could find about it.
           </p>
 
+          <h3 className="text-lg uppercase">
+            <strong>#the_first_code</strong>
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            ducimus eum obcaecati quae odit nesciunt temporibus facere totam
-            reprehenderit voluptates numquam molestias. Nesciunt possimus,
-            asperiores quo rerum repudiandae aperiam deleniti?
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            ducimus eum obcaecati quae odit nesciunt temporibus facere totam
-            reprehenderit voluptates numquam molestias. Nesciunt possimus,
-            asperiores quo rerum repudiandae aperiam deleniti?
+            After a lot of research, I decided that I would go with Front-end
+            development, specifically with React.js. Since then I have been
+            improving myself more and more every day.
           </p>
         </div>
       </section>
 
-      <section id="projetos" className="mt-24">
-        <h2 className="text-3xl">#PROJETOS</h2>
+      <section id="projetos" className="mt-16">
+        <h2 className="text-3xl">#TOP_3_PROJECTS</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
-          <div className="flex items-center justify-center">
-            <img
-              src="https://placehold.co/300x200/000000/FFFFFF/png"
-              className="object-contain"
-              alt=""
-            />
+        <div className="grid grid-cols-1 gap-3 mt-5">
+          <div>
+            <h2 className="text-lg mb-2">
+              <a
+                href="https://github.com/galavernag/cognito"
+                className="text-teal-500"
+              >
+                Cognito, 2022
+              </a>
+            </h2>
+            <div className="ml-3">
+              <span className="text-sm">
+                Cognito is a SaaS proof of concept designed to streamline the
+                grading process for teachers. With an intuitive web interface,
+                it simplifies student assessment management, making it faster,
+                more reliable, and fully auditable.
+              </span>
+            </div>
           </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
+
+          <div>
+            <h2 className="text-lg mb-2">
+              <a
+                href="https://github.com/galavernag/letmeask"
+                className="text-teal-500"
+              >
+                Letmeask, 2021
+              </a>
+            </h2>
+            <div className="ml-3">
+              <span className="text-sm">
+                Letmeask is a Q&A service designed for content creators,
+                allowing their audience to submit and upvote questions in
+                real-time. This ensures that the most relevant topics gain
+                visibility, fostering better engagement during live sessions.
+              </span>
+            </div>
           </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-            <img src="https://placehold.co/300x200/000000/FFFFFF/png" alt="" />
+
+          <div>
+            <h2 className="text-lg mb-2">
+              <a
+                href="https://github.com/galavernag/quickcite"
+                className="text-teal-500"
+              >
+                QuickCite, 2023
+              </a>
+            </h2>
+            <div className="ml-3">
+              <span className="text-sm">
+                QuickCite is an AI-driven SaaS designed to simplify academic
+                referencing. It generates citations in all major formats and
+                delivers them directly via email, streamlining the research and
+                writing process for students and professionals.
+              </span>
+            </div>
           </div>
         </div>
       </section>
