@@ -30,6 +30,12 @@ export default function PtBrPage() {
           <span>{"//"}</span>
           <Link href="#projetos">PROJETOS</Link>
         </div>
+
+        <div>
+          <Link href="/" className="text-sm">
+            EN-US
+          </Link>
+        </div>
       </header>
 
       <section className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 items-center gap-12 md:mt-32 mt-20">

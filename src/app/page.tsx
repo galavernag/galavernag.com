@@ -30,6 +30,12 @@ export default function Home() {
           <span>{"//"}</span>
           <Link href="#projetos">PROJECTS</Link>
         </div>
+
+        <div>
+          <Link href="/pt-br" className="text-sm">
+            PT-BR
+          </Link>
+        </div>
       </header>
 
       <section className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 items-center gap-12 md:mt-32 mt-20">
