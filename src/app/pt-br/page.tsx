@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   FaCloudDownloadAlt,
@@ -99,7 +100,7 @@ export default function PtBrPage() {
             </a>
           </footer>
         </div>
-        <img
+        <Image
           className="h-auto"
           src="https://github.com/galavernag.png"
           alt=""
@@ -115,9 +116,9 @@ export default function PtBrPage() {
           </h3>
           <p>
             Eu começei a pesquisar sobre desenvolvimento de software quando
-            tinha 12 anos. Minha primeira "linguagem de programação" foi Batch
-            Script, no Windows, onde eu escrevia pequenos programas de terminal.
-            Foi nesse período que eu começei a ter mais interesse por
+            tinha 12 anos. Minha primeira &quotlinguagem de programação&quot foi
+            Batch Script, no Windows, onde eu escrevia pequenos programas de
+            terminal. Foi nesse período que eu começei a ter mais interesse por
             desenvolvimento. Desde então eu venho pesquisando, estudando e
             aplicando cada conhecimento que aprendo dia a após dia
           </p>
