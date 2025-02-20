@@ -103,7 +103,9 @@ export default function PtBrPage() {
         <Image
           className="h-auto"
           src="https://github.com/galavernag.png"
-          alt=""
+          alt="Imagem do Guilherme Galaverna"
+          width={362}
+          height={362}
         />
       </section>
 

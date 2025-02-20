@@ -103,7 +103,9 @@ export default function Home() {
         <Image
           className="h-auto"
           src="https://github.com/galavernag.png"
-          alt=""
+          alt="Image of Guilherme Galaverna"
+          width={362}
+          height={362}
         />
       </section>
 
