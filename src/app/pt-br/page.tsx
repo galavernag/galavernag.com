@@ -85,7 +85,7 @@ export default function PtBrPage() {
             </a>
 
             <a
-              href="/Guilherme_Galaverna_Curriculo.pdf"
+              href="/Guilherme Galaverna - Currículo.pdf"
               className="bg-white p-1.5 rounded-md flex gap-2 font-medium"
             >
               <FaCloudDownloadAlt color="black" size={20} />
